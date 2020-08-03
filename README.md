@@ -8,3 +8,7 @@ Below will summarize the files within the course sections.
 ### 00_Resources
 * Useful Links
   * Various reference links for course related material
+
+### 01_Next-Gen-JS
+* 01 - Let vs Const
+* 02 - Arrow Functions

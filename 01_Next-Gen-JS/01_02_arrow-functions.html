@@ -1,0 +1,71 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Arrow Functions
+        </title>
+    </head>    
+    <body>
+        <p>Look at the console window.</p>
+        <script>
+            /*Arrow Functions
+            * A different way to declare a function
+            * Traditional: function myFnc(){ ... }
+            * Arrow: const myFnc = () => { ... }
+            *
+            * Arrows functions can solve a lot of issues faced using 'this'.
+            * Arrow functions will always keep their context.
+            */
+
+            //traditional
+            function printMyName(name){
+                console.log(name);
+            }
+
+            printMyName('Nicole');
+
+            //arrow
+            const printMyMiddleName = (name) => {
+                console.log(name);
+            }
+
+            printMyMiddleName('Anna');
+
+            //arrow shortcut with 1 parameter
+            const printMyLastName = name => {
+                console.log(name);
+            }
+
+            printMyMiddleName('Grinsell');
+
+            //arrow with 0 parameters
+            const printHello = () => {
+                console.log("Hello");
+            }
+
+            printHello();
+
+            //arrow with 2 parameters
+            const printGreeting = (greeting, name) => {
+                console.log(greeting + ', ' + name);
+            }
+
+            printGreeting('Hi', "Nicole");
+
+            //arrow with return
+            const multiply = (number) => {
+                return number * 2;
+            }
+
+            console.log(multiply(2));
+
+            //arrow shortcut if only trying to return
+            //note single param shortcut as well
+            const multiply2 = number => number * 2;
+
+            console.log(multiply2(2));
+        </script>
+    </body>
+</html>

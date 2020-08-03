@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Let vs Const
+        </title>
+    </head>    
+    <body>
+        <p>Look at the console window.</p>
+        <script>
+            /*Let vs Const
+            let: new 'var' so to speak, used for variable values
+            const: used for values that should not change*/
+
+            //using traditional 'var'
+            var myName = 'Nicole';
+            console.log(myName);
+
+            myName = 'Manu';
+            console.log(myName);
+
+            //using 'let'
+            let myMiddleName = 'Anna';
+            console.log(myMiddleName);
+
+            myMiddleName = 'Mike';
+            console.log(myMiddleName);
+
+            //using 'const'
+            const myLastName = 'Grinsell';
+            console.log(myLastName);
+
+            myLastName = 'Smith';   //errors! you cannot change const values
+            console.log(myLastName);
+        </script>
+    </body>
+</html>
