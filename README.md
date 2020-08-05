@@ -15,3 +15,5 @@ Below will summarize the files within the course sections.
 * 03 - Exports & Imports
 * 04 - Classes
   * 04.01 - Classes Example
+* 05 - Classes, Properties, & Methods
+  * 05.01 - Classes, Properties, & Methods Example
