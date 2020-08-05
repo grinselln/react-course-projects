@@ -12,3 +12,4 @@ Below will summarize the files within the course sections.
 ### 01_Next-Gen-JS
 * 01 - Let vs Const
 * 02 - Arrow Functions
+* 03 - Exports & Imports
