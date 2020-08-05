@@ -17,3 +17,5 @@ Below will summarize the files within the course sections.
   * 04.01 - Classes Example
 * 05 - Classes, Properties, & Methods
   * 05.01 - Classes, Properties, & Methods Example
+* 06 - Rest & Spread Operator
+  * 06.01 - Rest & Spread Operator Example

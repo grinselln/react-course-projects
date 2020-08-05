@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Spread and Rest Operators
+        </title>
+    </head>    
+    <body>
+        <p>Look at the console window.</p>
+        <script>
+            /*Spread - Arrays*/
+            const numbers = [1, 2, 3];
+
+            /*new elements not required*/
+            const newNumbers = [numbers, 10, 11];
+            const newNumbers2 = [...numbers, 10, 11];
+            console.log("Normal Inclusion: ", newNumbers);
+            console.log("Spread: ", newNumbers2);
+
+            /*Spread - Objects*/
+            const person = {
+                name: 'Nicole'
+            }
+
+            const newPerson = {
+                ...person,
+                age: 26
+            }
+
+            console.log("Normal Obj: ", person);
+            console.log("Spread Obj: ", newPerson);
+
+            /*Rest - Function Arguments*/
+            const filter = (...args) => {
+                //filter will execute on every element in the newly merged array
+                //for each element, return the element is equal to 1
+                return args.filter(el => el === 1);
+            }
+
+            console.log(filter(1, 2, 3));
+        </script>
+    </body>
+</html>
