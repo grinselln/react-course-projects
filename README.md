@@ -13,3 +13,5 @@ Below will summarize the files within the course sections.
 * 01 - Let vs Const
 * 02 - Arrow Functions
 * 03 - Exports & Imports
+* 04 - Classes
+  * 04.01 - Classes Example

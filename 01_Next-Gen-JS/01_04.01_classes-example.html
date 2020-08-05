@@ -1,0 +1,43 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Classes
+        </title>
+    </head>    
+    <body>
+        <p>Look at the console window.</p>
+        <script>
+            class Human {
+                constructor(){
+                    this.legsNum = 2;
+                }
+
+                printLegs(){
+                    console.log(this.legsNum);
+                }
+            }
+
+            class Person extends Human{
+                //if extending a using constructor, you must implement
+                //the super constructor
+
+                //properties can be overwritten from Human
+                constructor(){
+                    super();
+                    this.name = 'Nicole'
+                }
+
+                printMyName(){
+                    console.log(this.name);
+                }
+            }           
+
+            const person = new Person();
+            person.printMyName();
+            person.printLegs();
+        </script>
+    </body>
+</html>
