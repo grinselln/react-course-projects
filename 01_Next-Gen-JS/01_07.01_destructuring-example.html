@@ -1,0 +1,24 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Destructuring
+        </title>
+    </head>    
+    <body>
+        <p>Look at the console window.</p>
+        <script>
+            /*Order is key with array destructuring*/
+            const numbers = [1, 2, 3];
+            [num1, num2] = numbers;
+            console.log(num1);
+            console.log(num2);
+
+            [num1, , num3] = numbers;
+            console.log(num1);
+            console.log(num3);
+        </script>
+    </body>
+</html>

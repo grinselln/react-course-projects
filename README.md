@@ -19,3 +19,5 @@ Below will summarize the files within the course sections.
   * 05.01 - Classes, Properties, & Methods Example
 * 06 - Rest & Spread Operator
   * 06.01 - Rest & Spread Operator Example
+* 07 Destructuring
+  * 07.01 - Destructuring Example
